@@ -1,25 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-29T02:22:49 IST" name="Login Suite" finished-at="2024-08-29T02:22:55 IST" duration-ms="6147">
+  <suite started-at="2024-08-29T23:01:41 IST" name="Login Suite" finished-at="2024-08-29T23:02:04 IST" duration-ms="22754">
     <groups>
     </groups>
-    <test started-at="2024-08-29T02:22:49 IST" name="Login Tests" finished-at="2024-08-29T02:22:55 IST" duration-ms="6147">
+    <test started-at="2024-08-29T23:01:41 IST" name="Login Tests" finished-at="2024-08-29T23:02:04 IST" duration-ms="22754">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@71def8f8]" started-at="2024-08-29T02:22:49 IST" name="setUp" finished-at="2024-08-29T02:22:53 IST" duration-ms="4519" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@6283d8b8]" started-at="2024-08-29T23:01:41 IST" name="setUp" finished-at="2024-08-29T23:01:48 IST" duration-ms="6407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginWithValidData()[pri:0, instance:tests.LoginTest@71def8f8]" started-at="2024-08-29T02:22:53 IST" name="loginWithValidData" finished-at="2024-08-29T02:22:55 IST" duration-ms="1335" status="PASS">
+        <test-method signature="loginWithValidData()[pri:0, instance:tests.LoginTest@6283d8b8]" started-at="2024-08-29T23:01:48 IST" name="loginWithValidData" finished-at="2024-08-29T23:01:49 IST" duration-ms="1267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithValidData -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@71def8f8]" started-at="2024-08-29T02:22:55 IST" name="tearDown" finished-at="2024-08-29T02:22:55 IST" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@6283d8b8]" started-at="2024-08-29T23:01:49 IST" name="tearDown" finished-at="2024-08-29T23:01:49 IST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
+      <class name="tests.NegaLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.NegaLoginTest@66f57048]" started-at="2024-08-29T23:01:49 IST" name="setUp" finished-at="2024-08-29T23:01:52 IST" duration-ms="2860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:tests.NegaLoginTest@66f57048]" started-at="2024-08-29T23:01:52 IST" name="loginWithInvalidCredentials" data-provider="invalidLoginData" finished-at="2024-08-29T23:01:52 IST" duration-ms="530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yuvraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chava]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.NegaLoginTest@66f57048]" started-at="2024-08-29T23:01:52 IST" name="tearDown" finished-at="2024-08-29T23:01:53 IST" duration-ms="138" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.NegaLoginTest@66f57048]" started-at="2024-08-29T23:01:53 IST" name="setUp" finished-at="2024-08-29T23:01:55 IST" duration-ms="2890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:tests.NegaLoginTest@66f57048]" started-at="2024-08-29T23:01:55 IST" name="loginWithInvalidCredentials" data-provider="invalidLoginData" finished-at="2024-08-29T23:01:56 IST" duration-ms="732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Deveo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HBb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.NegaLoginTest@66f57048]" started-at="2024-08-29T23:01:56 IST" name="tearDown" finished-at="2024-08-29T23:01:56 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.NegaLoginTest@66f57048]" started-at="2024-08-29T23:01:56 IST" name="setUp" finished-at="2024-08-29T23:01:59 IST" duration-ms="2734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:tests.NegaLoginTest@66f57048]" started-at="2024-08-29T23:01:59 IST" name="loginWithInvalidCredentials" data-provider="invalidLoginData" finished-at="2024-08-29T23:02:00 IST" duration-ms="797" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JHBU]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HBI]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.NegaLoginTest@66f57048]" started-at="2024-08-29T23:02:00 IST" name="tearDown" finished-at="2024-08-29T23:02:00 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.NegaLoginTest@66f57048]" started-at="2024-08-29T23:02:00 IST" name="setUp" finished-at="2024-08-29T23:02:03 IST" duration-ms="3113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInvalidCredentials(java.lang.String,java.lang.String)[pri:0, instance:tests.NegaLoginTest@66f57048]" started-at="2024-08-29T23:02:03 IST" name="loginWithInvalidCredentials" data-provider="invalidLoginData" finished-at="2024-08-29T23:02:04 IST" duration-ms="788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[knn]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[njkn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.NegaLoginTest@66f57048]" started-at="2024-08-29T23:02:04 IST" name="tearDown" finished-at="2024-08-29T23:02:04 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.NegaLoginTest -->
     </test> <!-- Login Tests -->
   </suite> <!-- Login Suite -->
 </testng-results>
